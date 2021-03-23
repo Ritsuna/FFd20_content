@@ -8,8 +8,8 @@
   "systems": ["ffd20"],
   "author": "Ritsu Voices, Tortuun, Greywolfdragon, Pepewai, Tatsu",
   "url":"https://github.com/ritsuna/FFd20_content",
-  "manifest": "https://github.com/ritsuna/FFd20_content/releases/download/main/module.json",
-  "download":"https://github.com/ritsuna/FFd20_content/releases/download/main/pf-content.zip",
+  "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
+  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.1.zip",
   "readme":"https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog":"https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
   "packs": [
