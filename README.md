@@ -12,16 +12,16 @@ This module comprises a host of content for Final Fantasy d20 for Foundry.
 
 -  traits sourced directly from https://www.finalfantasyd20.com/
 
-While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue o. These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the pf1 system, but most are missing art. 
+While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue. These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the ffd20 system, but most are missing art. 
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
 ## Installation
 
 If you want to install this module manually, use the main release download .zip.
-Unzip the file and transfer the pf-content folder to FoundryVTT\Data\modules.
+Unzip the file and transfer the FFd20-content folder to FoundryVTT\Data\modules.
 
-To install through Foundry, click on the Add-on Modules tab, then the Install Module button, and search for Pathfinder 1e Content.
+To install through Foundry, click on the Add-on Modules tab, then the Install Module button, and search for Final Fantasy d20 Content.
 
 -------
 
