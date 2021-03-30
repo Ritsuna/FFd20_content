@@ -2,14 +2,14 @@
   "name": "ffd20-content",
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, this should have it all",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["ffd20"],
   "author": "Ritsu Voices, Tortuun, Greywolfdragon, Pepewai, Tatsu",
   "url":"https://github.com/ritsuna/FFd20_content",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.1.zip",
+  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.2.zip",
   "readme":"https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog":"https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
   "packs": [
@@ -95,6 +95,12 @@
       "label": "Class Pack - Dragoon",
       "system": "ffd20",
       "path": "./packs/ffd20-class-pack-dragoon.db",
+      "entity": "Item"
+    },
+    { "name": "ffd20-class-pack-druid",
+      "label": "Class Pack - Druid",
+      "system": "ffd20",
+      "path": "./packs/ffd20-class-pack-druid.db",
       "entity": "Item"
     },
     { "name": "ffd20-class-pack-engineer",
@@ -288,6 +294,18 @@
       "system": "ffd20",
       "path": "./packs/ffd20-feats.db",
       "entity": "Item"
+    },
+    { "name": "ffd20-roll-tables",
+      "label": "FFd20 Roll Tables",
+      "system": "ffd20",
+      "path": "./packs/ffd20-roll-tables.db",
+      "entity": "RollTable"
+    },
+    { "name": "ffd20-macros",
+      "label": "FFd20 Macros",
+      "system": "ffd20",
+      "path": "./packs/ffd20-macros.db",
+      "entity": "Macro"
     }
 ]
 }

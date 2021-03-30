@@ -1,4 +1,12 @@
 # Changelog
+## 0.0.2
+
+### Changelog
+- added more spells
+- added more items
+- power weapons added
+- Red mage added
+- Basic classes added
 
 ## 0.0.1
 
