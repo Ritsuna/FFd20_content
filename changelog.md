@@ -1,4 +1,14 @@
 # Changelog
+## 0.0.4
+### Changelog
+- added missing alchemical
+- added materia
+
+## 0.0.3
+### Changelog
+- added more spells
+- added alchemicals
+
 ## 0.0.2
 
 ### Changelog
