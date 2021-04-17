@@ -2,14 +2,14 @@
   "name": "ffd20-content",
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, this should have it all",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["ffd20"],
   "author": "Ritsu Voices, Tortuun, Greywolfdragon, Pepewai, Tatsu",
   "url":"https://github.com/ritsuna/FFd20_content",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.5.zip",
+  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.6.zip",
   "readme":"https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog":"https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
   "packs": [
@@ -312,6 +312,90 @@
       "system": "ffd20",
       "path": "./packs/ffd20-macros.db",
       "entity": "Macro"
+    },
+    { "name": "ffd20-bestiary_animals",
+      "label": "FFD20 Bestiary - Animals",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_animals.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_aberrations",
+      "label": "FFD20 Bestiary - Aberrations",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_aberrations.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_Bosses",
+      "label": "FFD20 Bestiary - Bosses",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_Bosses.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_constructs",
+      "label": "FFD20 Bestiary - Constructs",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_constructs.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_dragons",
+      "label": "FFD20 Bestiary - Dragons",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_dragons.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_fey",
+      "label": "FFD20 Bestiary - Fey",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_fey.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_humanoids",
+      "label": "FFD20 Bestiary - Humanoids",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_humanoids.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_magical-beasts",
+      "label": "FFD20 Bestiary - Magical Beasts",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_magical-beasts.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_monstrous-humanoids",
+      "label": "FFD20 Bestiary - Monstrous Humanoids",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_monstrous-humanoids.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_oozes",
+      "label": "FFD20 Bestiary - Oozes",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_oozes.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_outsiders",
+      "label": "FFD20 Bestiary - Outsiders",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_outsiders.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_plants",
+      "label": "FFD20 Bestiary - Plants",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_plants.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_undead",
+      "label": "FFD20 Bestiary - Undead",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_undead.db",
+      "entity": "Actor"
+    },
+    { "name": "ffd20-bestiary_vermin",
+      "label": "FFD20 Bestiary - Vermin",
+      "system": "ffd20",
+      "path": "./packs/ffd20-bestiary_vermin.db",
+      "entity": "Actor"
     }
 ]
 }

@@ -1,8 +1,12 @@
 # Changelog
+## 0.0.6
+### Changelog
+- Added several creature compendiums
+
 ## 0.0.5
 ### Changelog
 - added Chocobo Knight
-- Added several spells
+- added several spells
 
 ## 0.0.4
 ### Changelog
