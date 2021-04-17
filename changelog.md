@@ -1,4 +1,9 @@
 # Changelog
+## 0.0.5
+### Changelog
+- added Chocobo Knight
+- Added several spells
+
 ## 0.0.4
 ### Changelog
 - added missing alchemical

@@ -2,14 +2,14 @@
   "name": "ffd20-content",
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, this should have it all",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "systems": ["ffd20"],
   "author": "Ritsu Voices, Tortuun, Greywolfdragon, Pepewai, Tatsu",
   "url":"https://github.com/ritsuna/FFd20_content",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.4.zip",
+  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.5.zip",
   "readme":"https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog":"https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
   "packs": [
@@ -146,7 +146,7 @@
       "entity": "Item"
     },
     { "name": "ffd20-class-pack-holy-knight",
-      "label": "Class Pack - Holy-Knight",
+      "label": "Class Pack - Holy Knight",
       "system": "ffd20",
       "path": "./packs/ffd20-class-pack-holy-knight.db",
       "entity": "Item"
@@ -236,13 +236,13 @@
       "entity": "Item"
     },
     { "name": "ffd20-spells",
-      "label": "FFd20 Spells",
+      "label": "FFD20 Spells",
       "system": "ffd20",
       "path": "./packs/ffd20-spells.db",
       "entity": "Item"
     },
     { "name": "ffd20-feats",
-      "label": "FFd20 Feats",
+      "label": "FFD20 Feats",
       "system": "ffd20",
       "path": "./packs/ffd20-feats.db",
       "entity": "Item"
