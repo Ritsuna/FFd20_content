@@ -1,4 +1,9 @@
 # Changelog
+## 0.0.7
+### Changelog
+- Added pet compendiums
+- added Avatar Alexander
+
 ## 0.0.6
 ### Changelog
 - Added several creature compendiums
