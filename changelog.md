@@ -1,4 +1,8 @@
 # Changelog
+## 0.0.10
+### Changelog
+- fixed images
+
 ## 0.0.9
 ### Changelog
 - Added Ninja, Base and Nightblade
