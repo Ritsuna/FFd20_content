@@ -1,4 +1,11 @@
 # Changelog
+## 0.0.9
+### Changelog
+- Added Ninja, Base and Nightblade
+- Theif, Base and Cat Burgler
+- Berserker, Base and Werewolf
+- added Several monsters
+
 ## 0.0.8
 ### Changelog
 - Added example compendiums
