@@ -1,4 +1,9 @@
 # Changelog
+## 0.0.11
+### Changelog
+- fixed images
+- small fix for ninja and theif
+
 ## 0.0.10
 ### Changelog
 - fixed images
