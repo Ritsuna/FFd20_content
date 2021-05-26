@@ -1,4 +1,13 @@
 # Changelog
+## 0.0.12
+### Changelog
+- added images
+- added Construct monsters
+- Added Chocobo food
+- added weapons
+- updated spells with durations corrected
+- added some missing spells
+
 ## 0.0.11
 ### Changelog
 - fixed images
