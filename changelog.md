@@ -1,4 +1,8 @@
 # Changelog
+## 0.0.13
+### Changelog
+- added feats... so many feats, missing class feats and racial feats
+
 ## 0.0.12
 ### Changelog
 - added images
