@@ -313,6 +313,13 @@
       "path": "./packs/ffd20-races.db",
       "entity": "Item"
     },
+    { "name": "buffs-and-effects",
+      "label": "Buffs and Effects",
+      "system": "ffd20",
+      "path": "./packs/buffs-and-effects.db",
+      "entity": "Item"
+    },
+
     { "name": "ffd20-roll-tables",
       "label": "FFd20 Roll Tables",
       "system": "ffd20",
