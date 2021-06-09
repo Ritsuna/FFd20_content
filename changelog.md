@@ -1,4 +1,17 @@
 # Changelog
+## 0.0.15
+### Changelog
+- Added Gambler, Base and Lady Luck
+- Added Scholar, Base only
+- Added Astrologian spells
+- Added Missing white mage spells
+- Added missing icons
+- Added missing engineer tricks
+
+## 0.0.14
+### Changelog
+- icons!
+
 ## 0.0.13
 ### Changelog
 - added feats... so many feats, missing class feats and racial feats
