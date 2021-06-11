@@ -1,4 +1,9 @@
 # Changelog
+## 0.0.16
+### Changelog
+- Added Bard, Base only
+- corrected Astrologian spells misspelling
+
 ## 0.0.15
 ### Changelog
 - Added Gambler, Base and Lady Luck
