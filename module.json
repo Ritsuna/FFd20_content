@@ -2,14 +2,14 @@
   "name": "ffd20-content",
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, this should have it all",
-  "version": "0.0.16",
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.7.9",
+  "version": "0.0.17",
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "0.8.9",
   "systems": ["ffd20"],
   "author": "Ritsu Voices, Tortuun, Greywolfdragon, Pepewai, Tatsu",
   "url":"https://github.com/ritsuna/FFd20_content",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.16.zip",
+  "download":"https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.0.17.zip",
   "readme":"https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog":"https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
   "packs": [
@@ -235,6 +235,18 @@
       "path": "./packs/ffd20-class-pack-white-mage.db",
       "entity": "Item"
     },
+    { "name": "ffd20-class-pack-npc",
+      "label": "Class Pack - NPCs",
+      "system": "ffd20",
+      "path": "./packs/ffd20-class-pack-npc.db",
+      "entity": "Item"
+    },
+    { "name": "ffd20-class-prestige-pack-dark-emperor",
+      "label": "Class Prestige Pack - Dark Emperor",
+      "system": "ffd20",
+      "path": "./packs/ffd20-class-prestige-pack-dark-emperor.db",
+      "entity": "Item"
+    },
     { "name": "ffd20-class-pets",
       "label": "Class Pets",
       "system": "ffd20",
@@ -319,7 +331,6 @@
       "path": "./packs/buffs-and-effects.db",
       "entity": "Item"
     },
-
     { "name": "ffd20-roll-tables",
       "label": "FFd20 Roll Tables",
       "system": "ffd20",

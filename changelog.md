@@ -1,4 +1,11 @@
 # Changelog
+## 0.0.17
+### Changelog
+- MORE CLASSES, so many classes
+- corrected icons and spells
+- so many changes
+- Need a few more fixes...
+
 ## 0.0.16
 ### Changelog
 - Added Bard, Base only
