@@ -16,6 +16,73 @@ While the feats and traits should contain nearly all entries, there might be a f
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
+## Planned Features/Additions
+
+The following represent some of the planned features I intend to implement or when they wer added:
+
+- [yyyy/mm/dd] what feature
+- [2020/01/01] Freelancer will NOT be added
+- [ ] Races - Core
+- [ ] Races - Base
+- [ ] Races - Beastman
+- [ ] Classes - Core
+- [ ] Classes - Base
+- [ ] Classes - Hybrid
+- [ ] Classes - Prestige
+- [ ] Classes - NPC
+- [ ] Feats - General
+- [ ] Feats - Bard
+- [ ] Feats - Class
+- [ ] Feats - Combat
+- [ ] Feats - Item Creation
+- [ ] Feats - Metamagic
+- [ ] Feats - Racial
+- [ ] Feats - Reserve
+- [ ] Feats - Style
+- [ ] Feats - Teamwork
+- [ ] Feats - Technology
+- [ ] Traits - Campaign
+- [ ] Traits - Combat
+- [ ] Traits - Equipment
+- [ ] Traits - Faith
+- [ ] Traits - Magic
+- [ ] Traits - Race
+- [ ] Traits - Regional
+- [ ] Traits - Religion
+- [ ] Traits - Social
+- [ ] Traits - Drawbacks
+- [ ] Equipment - Airships
+- [ ] Equipment - Chocobo Food
+- [ ] Equipment - Cybertech
+- [ ] Equipment - Firearms
+- [ ] Equipment - Gil & Currencies
+- [ ] Equipment - Goods and Services
+- [ ] Equipment - Gun Arms
+- [ ] Equipment - Special Materials
+- [ ] Equipment - Technological Gear
+- [ ] Equipment - Vehicles
+- [ ] Equipment - Weapons
+- [ ] Magic - Spells by class
+- [ ] Magical Items - Alchemical Items
+- [ ] Magical Items - Artifacts
+- [ ] Magical Items - Magical Armors
+- [ ] Magical Items - Magical Weapons
+- [ ] Magical Items - Magitek
+- [ ] Magical Items - Materia
+- [ ] Magical Items - Miscellaneous Items
+- [ ] Magical Items - Rings
+- [ ] Magical Items - Royal Arms
+- [ ] Magical Items - Wondrous Items
+- [ ] Limit Breaks (full rule set)
+- [ ] Deities
+- [ ] Additional buffs/debuffs
+- [ ] Iconics
+- [ ] Bestiary
+- [ ] Bestiary — Creature Magic
+- [ ] Bestiary — Creature Properties
+- [ ] Bestiary — Final Fantasy Universal Monster Rules
+- [ ] Summoned Creatures
+
 ## Installation
 
 If you want to install this module manually, use the main release download .zip.
