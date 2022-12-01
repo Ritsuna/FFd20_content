@@ -1,4 +1,10 @@
 # Changelog
+## 0.1.01 2022/12/01
+### Changelog
+- updated for v10
+- corrected icons
+- Working though feats, traits and status effects
+
 ## 0.0.17
 ### Changelog
 - MORE CLASSES, so many classes

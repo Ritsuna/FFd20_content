@@ -18,70 +18,72 @@ Before altering any of the compendium databases, it is strongly recommended you 
 
 ## Planned Features/Additions
 
-The following represent some of the planned features I intend to implement or when they wer added:
+The following represent some of the planned features I intend to implement or when they were added:
 
 - [yyyy/mm/dd] what feature
-- [2020/01/01] Freelancer will NOT be added
-- [ ] Races - Core
-- [ ] Races - Base
-- [ ] Races - Beastman
-- [ ] Classes - Core
-- [ ] Classes - Base
-- [ ] Classes - Hybrid
-- [ ] Classes - Prestige
-- [ ] Classes - NPC
-- [ ] Feats - General
-- [ ] Feats - Bard
-- [ ] Feats - Class
-- [ ] Feats - Combat
-- [ ] Feats - Item Creation
-- [ ] Feats - Metamagic
-- [ ] Feats - Racial
-- [ ] Feats - Reserve
-- [ ] Feats - Style
-- [ ] Feats - Teamwork
-- [ ] Feats - Technology
-- [ ] Traits - Campaign
-- [ ] Traits - Combat
-- [ ] Traits - Equipment
-- [ ] Traits - Faith
-- [ ] Traits - Magic
-- [ ] Traits - Race
-- [ ] Traits - Regional
-- [ ] Traits - Religion
-- [ ] Traits - Social
-- [ ] Traits - Drawbacks
-- [ ] Equipment - Airships
-- [ ] Equipment - Chocobo Food
-- [ ] Equipment - Cybertech
-- [ ] Equipment - Firearms
-- [ ] Equipment - Gil & Currencies
-- [ ] Equipment - Goods and Services
-- [ ] Equipment - Gun Arms
-- [ ] Equipment - Special Materials
-- [ ] Equipment - Technological Gear
-- [ ] Equipment - Vehicles
-- [ ] Equipment - Weapons
-- [ ] Magic - Spells by class
-- [ ] Magical Items - Alchemical Items
-- [ ] Magical Items - Artifacts
-- [ ] Magical Items - Magical Armors
-- [ ] Magical Items - Magical Weapons
-- [ ] Magical Items - Magitek
-- [ ] Magical Items - Materia
-- [ ] Magical Items - Miscellaneous Items
-- [ ] Magical Items - Rings
-- [ ] Magical Items - Royal Arms
-- [ ] Magical Items - Wondrous Items
-- [ ] Limit Breaks (full rule set)
-- [ ] Deities
-- [ ] Additional buffs/debuffs
-- [ ] Iconics
-- [ ] Bestiary
-- [ ] Bestiary — Creature Magic
-- [ ] Bestiary — Creature Properties
-- [ ] Bestiary — Final Fantasy Universal Monster Rules
-- [ ] Summoned Creatures
+- [2020/01/01] Freelancer will NOT be added(it is too complicated at the moment for me, maybe someday)
+- [ ] Races - Core (0/8)
+- [ ] Races - Base (0/26)
+- [ ] Races - Beastman (0/20)
+- [ ] Races - Monstrous (0/3)
+- [ ] Classes - Core (0/11)
+- [ ] Classes - Base (0/17)
+- [ ] Classes - Hybrid (0/9)
+- [ ] Classes - Prestige (0/30)
+- [ ] Classes - NPC (0/8)
+- [ ] Feats - General (0/36)
+- [ ] Feats - Bard (0/33)
+- [ ] Feats - Class (0/92)
+- [ ] Feats - Combat (0/26)
+- [ ] Feats - Item Creation (0/5)
+- [ ] Feats - Metamagic (0/68)
+- [ ] Feats - Racial (0/142)
+- [ ] Feats - Reserve (0/38)
+- [ ] Feats - Style (0/43)
+- [ ] Feats - Teamwork (0/6)
+- [ ] Feats - Technology (0/24)
+- [2022/11/28] Traits - Campaign (5/5)
+- [2022/11/28] Traits - Combat (3/3)
+- [2022/11/28] Traits - Equipment (2/2)
+- [2022/11/28] Traits - Faith (1/1)
+- [2022/11/28] Traits - Magic (6/6)
+- [2022/11/28] Traits - Race (4/44)
+- [2022/11/28] Traits - Regional (17/17)
+- [2022/11/28] Traits - Religion (4/4)
+- [2022/11/28] Traits - Social (1/1)
+- [2022/11/28] Traits - Drawbacks (2/2)
+- [ ] Equipment - Airships (0/)
+- [ ] Equipment - Chocobo Food (0/)
+- [ ] Equipment - Cybertech (0/)
+- [ ] Equipment - Firearms (0/)
+- [ ] Equipment - Gil & Currencies (0/)
+- [ ] Equipment - Goods and Services (0/)
+- [ ] Equipment - Gun Arms (0/)
+- [ ] Equipment - Special Materials (0/)
+- [ ] Equipment - Technological Gear (0/)
+- [ ] Equipment - Vehicles (0/)
+- [ ] Equipment - Weapons (0/)
+- [ ] Magic - Spells by class (0/)
+- [ ] Magical Items - Alchemical Items (0/)
+- [ ] Magical Items - Artifacts (0/)
+- [ ] Magical Items - Magical Armors (0/)
+- [ ] Magical Items - Magical Weapons (0/)
+- [ ] Magical Items - Magitek (0/)
+- [2022/11/28] Magical Items - Materia (49/49) 11 Ability | 15 Independent | 11 Spell | 10 Summon | 6 Support
+- [ ] Magical Items - Miscellaneous Items (0/)
+- [2022/11/28] Magical Items - Rings (18/18)
+- [ ] Magical Items - Royal Arms (0/)
+- [ ] Magical Items - Wondrous Items (0/)
+- [ ] Limit Breaks (full rule set) (0/)
+- [ ] Deities (0/)
+- [2022/12/01] Base buffs/debuffs (43/?) https://www.finalfantasyd20.com/magic/status-effects/
+- [ ] Additional buffs/debuffs (0/)
+- [ ] Iconics (0/)
+- [ ] Bestiary (0/)
+- [ ] Bestiary — Creature Magic (0/)
+- [ ] Bestiary — Creature Properties (0/)
+- [ ] Bestiary — Final Fantasy Universal Monster Rules (0/)
+- [ ] Summoned Creatures (0/)
 
 ## Installation
 
