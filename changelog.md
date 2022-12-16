@@ -1,4 +1,8 @@
 # Changelog
+## 0.1.02 2022/12/01
+### Changelog
+- fixed pack links for classes
+
 ## 0.1.01 2022/12/01
 ### Changelog
 - updated for v10
