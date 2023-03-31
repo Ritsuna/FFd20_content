@@ -1,4 +1,10 @@
 # Changelog
+## 0.2.00 2023/03/31
+### Changelog
+- Added Dark Knight and 1 Archatype
+- Added spells and reupdated everything in the #, J, K, N, O, Q, U, Y and Z lists
+- other updates may have happened but there has been a lot of content
+
 ## 0.1.02 2022/12/01
 ### Changelog
 - fixed pack links for classes

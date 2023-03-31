@@ -1,27 +1,26 @@
 {
-  "name": "ffd20-content",
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, bestiary, and more for FFd20. more coming as it is finished.",
-  "version": "0.1.02",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
-  "minimumSystemVersion": "10",
-  "flags": {},
-  "system": [
-    "ffd20"
-  ],
-  "dependencies": [],
-  "socket": false,
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "protected": false,
-  "coreTranslation": false,
-  "author": "Ritsu Voices, Tortuun, Greywolfdragon, Pepewai, Tatsu",
+  "version": "0.2.0",
+  "relationships": {
+    "systems": [
+      {
+        "id": "ffd20",
+        "type": "system",
+        "compatibility": {
+          "minimum": "10.1.2"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "id": "ffd20-content",
   "url": "https://github.com/ritsuna/FFd20_content",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download": "https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.1.02.zip",
+  "download": "https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.2.0.zip",
   "readme": "https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog": "https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
   "packs": [
@@ -32,7 +31,8 @@
       "path": "packs/ffd20-bestiary_aberrations.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_animals",
@@ -41,7 +41,8 @@
       "path": "packs/ffd20-bestiary_animals.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_bosses",
@@ -50,7 +51,8 @@
       "path": "packs/ffd20-bestiary_bosses.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_constructs",
@@ -59,7 +61,8 @@
       "path": "packs/ffd20-bestiary_constructs.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_dragons",
@@ -68,7 +71,8 @@
       "path": "packs/ffd20-bestiary_dragons.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_fey",
@@ -77,7 +81,8 @@
       "path": "packs/ffd20-bestiary_fey.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_humanoids",
@@ -86,7 +91,8 @@
       "path": "packs/ffd20-bestiary_humanoids.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_magical-beasts",
@@ -95,7 +101,8 @@
       "path": "packs/ffd20-bestiary_magical-beasts.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_monstrous-humanoids",
@@ -104,7 +111,8 @@
       "path": "packs/ffd20-bestiary_monstrous-humanoids.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_npcs",
@@ -113,7 +121,8 @@
       "path": "packs/ffd20-bestiary_npcs.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_oozes",
@@ -122,7 +131,8 @@
       "path": "packs/ffd20-bestiary_oozes.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_outsiders",
@@ -131,7 +141,8 @@
       "path": "packs/ffd20-bestiary_outsiders.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_plants",
@@ -140,7 +151,8 @@
       "path": "packs/ffd20-bestiary_plants.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_undead",
@@ -149,7 +161,8 @@
       "path": "packs/ffd20-bestiary_undead.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-bestiary_vermin",
@@ -158,7 +171,8 @@
       "path": "packs/ffd20-bestiary_vermin.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-buffs_and_effects",
@@ -167,7 +181,8 @@
       "path": "packs/ffd20-buffs_and_effects.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_astrologian",
@@ -176,7 +191,8 @@
       "path": "packs/ffd20-class-pack-base_astrologian.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_berserker",
@@ -185,7 +201,8 @@
       "path": "packs/ffd20-class-pack-base_berserker.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_blue-mage",
@@ -194,7 +211,8 @@
       "path": "packs/ffd20-class-pack-base_blue-mage.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_chemist",
@@ -203,7 +221,8 @@
       "path": "packs/ffd20-class-pack-base_chemist.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_chocobo-knight",
@@ -212,7 +231,8 @@
       "path": "packs/ffd20-class-pack-base_chocobo-knight.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_cleric",
@@ -221,7 +241,8 @@
       "path": "packs/ffd20-class-pack-base_cleric.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_dark-knight",
@@ -230,7 +251,8 @@
       "path": "packs/ffd20-class-pack-base_dark-knight.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_engineer",
@@ -239,7 +261,8 @@
       "path": "packs/ffd20-class-pack-base_engineer.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_gambler",
@@ -248,7 +271,8 @@
       "path": "packs/ffd20-class-pack-base_gambler.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_geomancer",
@@ -257,7 +281,8 @@
       "path": "packs/ffd20-class-pack-base_geomancer.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_gunner",
@@ -266,7 +291,8 @@
       "path": "packs/ffd20-class-pack-base_gunner.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_holy-knight",
@@ -275,7 +301,8 @@
       "path": "packs/ffd20-class-pack-base_holy-knight.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_illusionist",
@@ -284,7 +311,8 @@
       "path": "packs/ffd20-class-pack-base_illusionist.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_medic",
@@ -293,7 +321,8 @@
       "path": "packs/ffd20-class-pack-base_medic.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_necromancer",
@@ -302,7 +331,8 @@
       "path": "packs/ffd20-class-pack-base_necromancer.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_summoner",
@@ -311,7 +341,8 @@
       "path": "packs/ffd20-class-pack-base_summoner.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-base_time-mage",
@@ -320,7 +351,8 @@
       "path": "packs/ffd20-class-pack-base_time-mage.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_archer",
@@ -329,7 +361,8 @@
       "path": "packs/ffd20-class-pack-core_archer.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_bard",
@@ -338,7 +371,8 @@
       "path": "packs/ffd20-class-pack-core_bard.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_beastmaster",
@@ -347,7 +381,8 @@
       "path": "packs/ffd20-class-pack-core_beastmaster.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_black-mage",
@@ -356,7 +391,8 @@
       "path": "packs/ffd20-class-pack-core_black-mage.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_dragoon",
@@ -365,7 +401,8 @@
       "path": "packs/ffd20-class-pack-core_dragoon.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_fighter",
@@ -374,7 +411,8 @@
       "path": "packs/ffd20-class-pack-core_fighter.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_knight",
@@ -383,7 +421,8 @@
       "path": "packs/ffd20-class-pack-core_knight.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_monk",
@@ -392,7 +431,8 @@
       "path": "packs/ffd20-class-pack-core_monk.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_red-mage",
@@ -401,7 +441,8 @@
       "path": "packs/ffd20-class-pack-core_red-mage.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_thief",
@@ -410,7 +451,8 @@
       "path": "packs/ffd20-class-pack-core_thief.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-core_white-mage",
@@ -419,7 +461,8 @@
       "path": "packs/ffd20-class-pack-core_white-mage.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_black-belt",
@@ -428,7 +471,8 @@
       "path": "packs/ffd20-class-pack-hybrid_black-belt.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_dancer",
@@ -437,7 +481,8 @@
       "path": "packs/ffd20-class-pack-hybrid_dancer.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_druid",
@@ -446,7 +491,8 @@
       "path": "packs/ffd20-class-pack-hybrid_druid.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_fencer",
@@ -455,7 +501,8 @@
       "path": "packs/ffd20-class-pack-hybrid_fencer.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_gunbreaker",
@@ -464,7 +511,8 @@
       "path": "packs/ffd20-class-pack-hybrid_gunbreaker.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_ninja",
@@ -473,7 +521,8 @@
       "path": "packs/ffd20-class-pack-hybrid_ninja.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_samurai",
@@ -482,7 +531,8 @@
       "path": "packs/ffd20-class-pack-hybrid_samurai.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_scholar",
@@ -491,7 +541,8 @@
       "path": "packs/ffd20-class-pack-hybrid_scholar.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-hybrid_sword-saint",
@@ -500,7 +551,8 @@
       "path": "packs/ffd20-class-pack-hybrid_sword-saint.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-other_npc",
@@ -509,7 +561,8 @@
       "path": "packs/ffd20-class-pack-other_npc.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-other_class-animals",
@@ -518,7 +571,8 @@
       "path": "packs/ffd20-class-pack-other_class-animals.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-other_class-animals-example",
@@ -527,7 +581,8 @@
       "path": "packs/ffd20-class-pack-other_class-animals-example.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-other_class-mounts",
@@ -536,7 +591,8 @@
       "path": "packs/ffd20-class-pack-other_class-mounts.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-other_class-mounts-example",
@@ -545,7 +601,8 @@
       "path": "packs/ffd20-class-pack-other_class-mounts-example.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-other_class-pets",
@@ -554,7 +611,8 @@
       "path": "packs/ffd20-class-pack-other_class-pets.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-pack-other_class-pets-example",
@@ -563,7 +621,8 @@
       "path": "packs/ffd20-class-pack-other_class-pets-example.db",
       "type": "Actor",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-class-prestige-pack_dark_emperor",
@@ -572,7 +631,8 @@
       "path": "packs/ffd20-class-prestige-pack_dark_emperor.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-feats",
@@ -581,7 +641,8 @@
       "path": "packs/ffd20-feats.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-macros",
@@ -590,7 +651,8 @@
       "path": "packs/ffd20-macros.db",
       "type": "Macro",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-roll-tables",
@@ -599,7 +661,8 @@
       "path": "packs/ffd20-roll-tables.db",
       "type": "RollTable",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-spells",
@@ -608,7 +671,8 @@
       "path": "packs/ffd20-spells.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-traits",
@@ -617,7 +681,8 @@
       "path": "packs/ffd20-traits.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_alchemical-items",
@@ -626,7 +691,8 @@
       "path": "packs/ffd20-items_alchemical-items.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_armors-and-shields",
@@ -635,7 +701,8 @@
       "path": "packs/ffd20-items_armors-and-shields.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_artifacts",
@@ -644,7 +711,8 @@
       "path": "packs/ffd20-items_artifacts.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_general-items",
@@ -653,7 +721,8 @@
       "path": "packs/ffd20-items_general-items.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_magical-armor",
@@ -662,7 +731,8 @@
       "path": "packs/ffd20-items_magical-armor.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_magical-weapons",
@@ -671,7 +741,8 @@
       "path": "packs/ffd20-items_magical-weapons.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_magitek",
@@ -680,7 +751,8 @@
       "path": "packs/ffd20-items_magitek.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_materia",
@@ -689,7 +761,8 @@
       "path": "packs/ffd20-items_materia.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_miscellaneous-magical-items",
@@ -698,7 +771,8 @@
       "path": "packs/ffd20-items_miscellaneous-magical-items.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_rings",
@@ -707,7 +781,8 @@
       "path": "packs/ffd20-items_rings.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_royal-arms",
@@ -716,7 +791,8 @@
       "path": "packs/ffd20-items_royal-arms.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_weapons-and-ammo",
@@ -725,7 +801,8 @@
       "path": "packs/ffd20-items_weapons-and-ammo.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-items_wondrous-items",
@@ -734,7 +811,8 @@
       "path": "packs/ffd20-items_wondrous-items.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-races-core",
@@ -743,7 +821,8 @@
       "path": "packs/ffd20-races-core.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-races-base",
@@ -752,7 +831,8 @@
       "path": "packs/ffd20-races-base.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-races-beastman",
@@ -761,7 +841,8 @@
       "path": "packs/ffd20-races-beastman.db",
       "type": "Item",
       "module": "ffd20-content",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
       "name": "ffd20-races-monstrous",
@@ -771,6 +852,23 @@
       "type": "Item",
       "module": "ffd20-content",
       "private": false
+    }
+  ],
+  "authors": [
+    {
+      "name": "Ritsu Voices"
+    },
+    {
+      "name": "Greywolfdragon"
+    },
+    {
+      "name": "Pepewai"
+    },
+    {
+      "name": "Tatsu"
+    },
+    {
+      "name": "Tortuun"
     }
   ]
 }
