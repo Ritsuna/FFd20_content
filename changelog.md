@@ -1,4 +1,9 @@
 # Changelog
+## 0.3.00 2023/09/12
+### Changelog
+- Update backend
+- corrected and normalized Traits
+
 ## 0.2.00 2023/03/31
 ### Changelog
 - Added Dark Knight and 1 Archatype

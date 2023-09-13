@@ -6,7 +6,7 @@ This module comprises a host of content for Final Fantasy d20 for Foundry.
 
 ## Included Content:
 
-- Classes, all 37 of them with all architypes
+- Classes, all 37 of them with all architypes (eventually)
 
 - All feats sourced directly from https://www.finalfantasyd20.com/
 
@@ -42,16 +42,16 @@ The following represent some of the planned features I intend to implement or wh
 - [ ] Feats - Style (0/43)
 - [ ] Feats - Teamwork (0/6)
 - [ ] Feats - Technology (0/24)
-- [2022/11/28] Traits - Campaign (5/5)
-- [2022/11/28] Traits - Combat (3/3)
-- [2022/11/28] Traits - Equipment (2/2)
-- [2022/11/28] Traits - Faith (1/1)
-- [2022/11/28] Traits - Magic (6/6)
-- [2022/11/28] Traits - Race (4/44)
-- [2022/11/28] Traits - Regional (17/17)
-- [2022/11/28] Traits - Religion (4/4)
-- [2022/11/28] Traits - Social (1/1)
-- [2022/11/28] Traits - Drawbacks (2/2)
+- [2023/09/12] Traits - Campaign (5/5)
+- [2023/09/12] Traits - Combat (3/3)
+- [2023/09/12] Traits - Equipment (2/2)
+- [2023/09/12] Traits - Faith (1/1)
+- [2023/09/12] Traits - Magic (5/5)
+- [2023/09/12] Traits - Race (4/44)
+- [2023/09/12] Traits - Regional (17/17)
+- [2023/09/12] Traits - Religion (4/4)
+- [2023/09/12] Traits - Social (1/1)
+- [2023/09/12] Traits - Drawbacks (3/3)
 - [ ] Equipment - Airships (0/)
 - [ ] Equipment - Chocobo Food (0/)
 - [ ] Equipment - Cybertech (0/)

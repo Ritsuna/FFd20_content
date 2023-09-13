@@ -1,14 +1,14 @@
 {
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, bestiary, and more for FFd20. more coming as it is finished.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "relationships": {
     "systems": [
       {
         "id": "ffd20",
         "type": "system",
         "compatibility": {
-          "minimum": "10.1.2"
+          "minimum": "10.2.5"
         }
       }
     ]
@@ -20,7 +20,7 @@
   "id": "ffd20-content",
   "url": "https://github.com/ritsuna/FFd20_content",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download": "https://github.com/Ritsuna/FFd20_content/archive/refs/tags/0.2.0.zip",
+  "download": "https://github.com/Ritsuna/FFd20_content/releases/download/0.3.0/FFd20-Content.0.3.0.zip",
   "readme": "https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog": "https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
   "packs": [
@@ -405,16 +405,6 @@
       "flags": {}
     },
     {
-      "name": "ffd20-class-pack-core_fighter",
-      "label": "FFD20 Class Pack - Core - Fighter",
-      "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_fighter.db",
-      "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
-    },
-    {
       "name": "ffd20-class-pack-core_knight",
       "label": "FFD20 Class Pack - Core - Knight",
       "system": "ffd20",
@@ -449,6 +439,16 @@
       "label": "FFD20 Class Pack - Core - Thief",
       "system": "ffd20",
       "path": "packs/ffd20-class-pack-core_thief.db",
+      "type": "Item",
+      "module": "ffd20-content",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "ffd20-class-pack-core_warrior",
+      "label": "FFD20 Class Pack - Core - Warrior",
+      "system": "ffd20",
+      "path": "packs/ffd20-class-pack-core_warrior.db",
       "type": "Item",
       "module": "ffd20-content",
       "private": false,
@@ -645,6 +645,16 @@
       "flags": {}
     },
     {
+      "name": "ffd20-traits",
+      "label": "FFD20 Traits",
+      "system": "ffd20",
+      "path": "packs/ffd20-traits.db",
+      "type": "Item",
+      "module": "ffd20-content",
+      "private": false,
+      "flags": {}
+    },
+    {
       "name": "ffd20-macros",
       "label": "FFd20 Macros",
       "system": "ffd20",
@@ -669,16 +679,6 @@
       "label": "FFD20 Spells",
       "system": "ffd20",
       "path": "packs/ffd20-spells.db",
-      "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "ffd20-traits",
-      "label": "FFD20 Traits",
-      "system": "ffd20",
-      "path": "packs/ffd20-traits.db",
       "type": "Item",
       "module": "ffd20-content",
       "private": false,
