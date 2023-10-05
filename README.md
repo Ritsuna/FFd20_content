@@ -21,12 +21,60 @@ Before altering any of the compendium databases, it is strongly recommended you 
 The following represent some of the planned features I intend to implement or when they were added:
 
 - [yyyy/mm/dd] what feature
-- [2020/01/01] Freelancer will NOT be added(it is too complicated at the moment for me, maybe someday)
+- [2020/01/01] Freelancer will NOT be added(it is too complicated)
 - [ ] Races - Core (0/8)
+   [ ] Dwarf
+   [2023/09/21] Elvaan
+   [ ] Galka
+   [2023/09/21] Half-Breed
+   [2023/09/21] Hume
+   [2023/09/21] Mithra
+   [ ] Moogle
+   [ ] Tarutaru
 - [ ] Races - Base (0/26)
+   [ ] Aegyl
+   [ ] Al Bhed
+   [ ] Au Ra (Raen)
+   [ ] Au Ra (Xaela)
+   [ ] Bangaa
+   [ ] Burmecian
+   [ ] Garif
+   [ ] Garlean
+   [ ] Genome
+   [2023/08/03] Gria
+   [ ] Guado
+   [ ] Hypello
+   [ ] Immortal
+   [ ] Lambkin
+   [ ] Mandragora
+   [ ] Moomba
+   [ ] Nu Mou
+   [ ] Palico
+   [ ] PuPu
+   [ ] Qu
+   [ ] Roegadyn
+   [ ] Ronso
+   [ ] Seeq
+   [ ] Shindroid
+   [ ] Tonkin
+   [ ] Varg
+   [2023/08/03] Viera
 - [ ] Races - Beastman (0/20)
 - [ ] Races - Monstrous (0/3)
 - [ ] Classes - Core (0/11)
+   [ ] Archer
+   [ ] Bard
+   [ ] Beastmaster
+   [ ] Black Mage
+   [2023/09/29] Dragoon
+      - Azure Dragoon
+   [ ] Knight
+   [ ] Monk
+   [ ] Red Mage
+   [ ] Thief
+   [2023/09/29] Warrior
+      - Sea Wolf
+   [ ] White Mage
 - [ ] Classes - Base (0/17)
 - [ ] Classes - Hybrid (0/9)
 - [ ] Classes - Prestige (0/30)
@@ -42,16 +90,16 @@ The following represent some of the planned features I intend to implement or wh
 - [ ] Feats - Style (0/43)
 - [ ] Feats - Teamwork (0/6)
 - [ ] Feats - Technology (0/24)
-- [2023/09/12] Traits - Campaign (5/5)
-- [2023/09/12] Traits - Combat (3/3)
-- [2023/09/12] Traits - Equipment (2/2)
-- [2023/09/12] Traits - Faith (1/1)
-- [2023/09/12] Traits - Magic (5/5)
-- [2023/09/12] Traits - Race (4/44)
-- [2023/09/12] Traits - Regional (17/17)
-- [2023/09/12] Traits - Religion (4/4)
-- [2023/09/12] Traits - Social (1/1)
-- [2023/09/12] Traits - Drawbacks (3/3)
+- [2022/11/28] Traits - Campaign (5/5)
+- [2022/11/28] Traits - Combat (3/3)
+- [2022/11/28] Traits - Equipment (2/2)
+- [2022/11/28] Traits - Faith (1/1)
+- [2022/11/28] Traits - Magic (6/6)
+- [2022/11/28] Traits - Race (4/44)
+- [2022/11/28] Traits - Regional (17/17)
+- [2022/11/28] Traits - Religion (4/4)
+- [2022/11/28] Traits - Social (1/1)
+- [2022/11/28] Traits - Drawbacks (2/2)
 - [ ] Equipment - Airships (0/)
 - [ ] Equipment - Chocobo Food (0/)
 - [ ] Equipment - Cybertech (0/)
@@ -95,4 +143,5 @@ To install through Foundry, click on the Add-on Modules tab, then the Install Mo
 -------
 
 ## Legal
+
 "This system uses trademarks and/or copyrights owned by Square Enix and Final Fantasy d20. We are expressly prohibited from charging you to use or access this content. This [website, character sheet, or whatever it is] is not published, endorsed, or specifically approved by Square Enix. For more information about Square Enix, please visit paizo.com/communityuse. For more information about Final Fantasy and other products, please visit https://www.square-enix.com/."
