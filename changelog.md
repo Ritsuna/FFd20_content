@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.2 2024/02/17
+
+### 0.3.2 Changelog
+
+- Added Class Core - Chemist
+- Added Class Core - Cleric (basic) and 1 Archetype
+- Cleaned a few things up
+- Added to the bestiary spiders(please check for bugs)
+
 ## 0.3.1 2023/09/21
 
 ### 0.3.1 Changelog

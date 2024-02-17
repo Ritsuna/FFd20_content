@@ -76,6 +76,27 @@ The following represent some of the planned features I intend to implement or wh
       - Sea Wolf
    [ ] White Mage
 - [ ] Classes - Base (0/17)
+   [ ] Astrologian
+   [ ] Berserker
+   [2024/02/15] Blue Mage
+      - Gun Mage
+   [2024/02/15] Chemist
+   [ ] Chocobo Knight
+   [2024/02/15] Cleric
+      - Yevonite
+   [ ] Dark Knight
+   [ ] Engineer
+   [ ] Gambler
+   [ ] Geomancer
+   [ ] Gunner
+   [ ] Illusionist
+   [ ] Medic
+   [ ] Necromancer
+      - Dollmaker
+   [ ] Paladin
+   [ ] Psychic
+   [ ] Summoner
+   [ ] Time Mage
 - [ ] Classes - Hybrid (0/9)
 - [ ] Classes - Prestige (0/30)
 - [ ] Classes - NPC (0/8)
