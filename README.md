@@ -4,15 +4,15 @@ Converted/imported content for Foundry VTT FFd20
 
 This module comprises a host of content for Final Fantasy d20 for Foundry.
 
-## Included Content:
+## Included Content
 
 - Classes, all 37 of them with all architypes (eventually)
 
 - All feats sourced directly from https://www.finalfantasyd20.com/
 
--  traits sourced directly from https://www.finalfantasyd20.com/
+- traits sourced directly from https://www.finalfantasyd20.com/
 
-While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue. These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the ffd20 system, but most are missing art. 
+While the feats and traits should contain nearly all entries, there might be a few missing. If you notice one missing, please open an issue. These remaining compendiums are not perfect. Except for buffs, none of them contain the appropriate changes to attacks, armor bonuses, etc. However, the item description and most of the relevant info needed to make them are typically included. Several magic items have default art pointing towards the ffd20 system, but most are missing art.
 
 Before altering any of the compendium databases, it is strongly recommended you create a personal copy of each to prevent the originals from being overwritten.
 
@@ -55,9 +55,9 @@ The following represent some of the planned features I intend to implement or wh
    [ ] Roegadyn
    [ ] Ronso
    [ ] Seeq
-   [ ] Shindroid
+   [2024/03/04] Shindroid
    [ ] Tonkin
-   [ ] Varg
+   [2024/03/04] Varg
    [2023/08/03] Viera
 - [ ] Races - Beastman (0/20)
 - [ ] Races - Monstrous (0/3)
@@ -91,7 +91,7 @@ The following represent some of the planned features I intend to implement or wh
    [ ] Gunner
    [ ] Illusionist
    [ ] Medic
-   [ ] Necromancer
+   [2024/03/04] Necromancer
       - Dollmaker
    [ ] Paladin
    [ ] Psychic

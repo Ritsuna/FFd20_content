@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.3 2024/03/04
+
+### 0.3.3 Changelog
+
+- fixed Class base - Summoner
+- Added Class base - Necromancer and 1 Archetype
+- Added Class base - Blue Mage and 1 Archetype
+- Cleaned a few things up
+- Added to the bestiary Calacbrina
+
+
 ## 0.3.2 2024/02/17
 
 ### 0.3.2 Changelog
