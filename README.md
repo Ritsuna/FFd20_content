@@ -69,7 +69,7 @@ The following represent some of the planned features I intend to implement or wh
    [2023/09/29] Dragoon
       - Azure Dragoon
    [ ] Knight
-   [ ] Monk
+   [2025/06/26] Monk
    [ ] Red Mage
    [ ] Thief
    [2023/09/29] Warrior
@@ -97,7 +97,9 @@ The following represent some of the planned features I intend to implement or wh
    [ ] Psychic
    [ ] Summoner
    [ ] Time Mage
-- [ ] Classes - Hybrid (0/9)
+- [ ] Classes - Hybrid (1/9)
+   [2025/06/26] Ninja
+      - Nightshade
 - [ ] Classes - Prestige (0/30)
 - [ ] Classes - NPC (0/8)
 - [ ] Feats - General (0/36)

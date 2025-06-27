@@ -1,859 +1,1000 @@
 {
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, bestiary, and more for FFd20. more coming as it is finished.",
-  "version": "0.3.3",
-  "relationships": {
-    "systems": [
+  "version": "12.2.0",
+  "relationships":{
+    "systems":[
       {
         "id": "ffd20",
         "type": "system",
         "compatibility": {
-          "minimum": "10.2.5"
+          "minimum": "12",
+          "verified": "12"
         }
       }
     ]
   },
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "12",
+    "verified": "12"
   },
-  "id": "ffd20-content",
-  "url": "https://github.com/ritsuna/FFd20_content",
-  "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download": "https://github.com/Ritsuna/FFd20_content/releases/download/0.3.3/FFd20-Content.0.3.3.zip",
-  "readme": "https://github.com/ritsuna/FFd20_content/blob/main/README.md",
-  "changelog": "https://github.com/ritsuna/FFd20_content/blob/main/changelog.md",
+  "packFolders":[
+    {
+      "name": "FFD20 Classes - Base",
+      "packs": [
+        "ffd20-class-pack-base_astrologian",
+        "ffd20-class-pack-base_berserker",
+        "ffd20-class-pack-base_blue-mage",
+        "ffd20-class-pack-base_chemist",
+        "ffd20-class-pack-base_chocobo-knight",
+        "ffd20-class-pack-base_cleric",
+        "ffd20-class-pack-base_dark-knight",
+        "ffd20-class-pack-base_engineer",
+        "ffd20-class-pack-base_gambler",
+        "ffd20-class-pack-base_geomancer",
+        "ffd20-class-pack-base_gunner",
+        "ffd20-class-pack-base_holy-knight",
+        "ffd20-class-pack-base_illusionist",
+        "ffd20-class-pack-base_medic",
+        "ffd20-class-pack-base_necromancer",
+        "ffd20-class-pack-base_summoner",
+        "ffd20-class-pack-base_time-mage"
+      ],
+      "color": "#777777"
+    },
+    {
+      "name": "FFD20 Classes - Core",
+      "packs": [
+        "ffd20-class-pack-core_archer",
+        "ffd20-class-pack-core_bard",
+        "ffd20-class-pack-core_beastmaster",
+        "ffd20-class-pack-core_black-mage",
+        "ffd20-class-pack-core_dragoon",
+        "ffd20-class-pack-core_knight",
+        "ffd20-class-pack-core_monk",
+        "ffd20-class-pack-core_red-mage",
+        "ffd20-class-pack-core_thief",
+        "ffd20-class-pack-core_warrior",
+        "ffd20-class-pack-core_white-mage"
+      ],
+      "color": "#777777"
+    },
+    {
+      "name": "FFD20 Classes - Hybrid",
+      "packs": [
+        "ffd20-class-pack-hybrid_black-belt",
+        "ffd20-class-pack-hybrid_dancer",
+        "ffd20-class-pack-hybrid_druid",
+        "ffd20-class-pack-hybrid_fencer",
+        "ffd20-class-pack-hybrid_gunbreaker",
+        "ffd20-class-pack-hybrid_ninja",
+        "ffd20-class-pack-hybrid_samurai",
+        "ffd20-class-pack-hybrid_scholar",
+        "ffd20-class-pack-hybrid_sword-saint"
+      ],
+      "color": "#777777"
+    },
+    {
+      "name": "FFD20 Classes - Other",
+      "packs": [
+        "ffd20-class-pack-other_class-animals",
+        "ffd20-class-pack-other_class-animals-example",
+        "ffd20-class-pack-other_class-mounts",
+        "ffd20-class-pack-other_class-mounts-example",
+        "ffd20-class-pack-other_class-pets",
+        "ffd20-class-pack-other_class-pets-example",
+        "ffd20-class-pack-other_npc",
+        "ffd20-class-prestige-pack_dark_emperor"
+      ],
+      "color": "#777777"
+    },
+    {
+      "name": "FFD20 Races",
+      "packs": [
+        "ffd20-races-base",
+        "ffd20-races-beastman",
+        "ffd20-races-core",
+        "ffd20-races-monstrous"
+      ],
+      "color": "#777777"
+    },
+    {
+      "name": "FFD20 Character Building",
+      "packs": [
+        "ffd20-feats",
+        "ffd20-spells",
+        "ffd20-traits"
+      ],
+      "color": "#996300"
+    },
+    {
+      "name": "FFD20 Conditions",
+      "packs": [
+        "ffd20-buffs_and_effects"
+      ],
+      "color": "#792291"
+    },
+    {
+      "name": "FFD20 Equipment",
+      "packs": [
+        "ffd20-items_alchemical-items",
+        "ffd20-items_armors-and-shields",
+        "ffd20-items_artifacts",
+        "ffd20-items_general-items",
+        "ffd20-items_magical-armor",
+        "ffd20-items_magical-weapons",
+        "ffd20-items_magitek",
+        "ffd20-items_materia",
+        "ffd20-items_miscellaneous-magical-items",
+        "ffd20-items_rings",
+        "ffd20-items_royal-arms",
+        "ffd20-items_weapons-and-ammo",
+        "ffd20-items_wondrous-items"
+      ],
+      "color": "#777777"
+    },
+    {
+      "name": "FFD20 Roll Tables",
+      "packs": [
+        "ffd20-roll-tables"
+      ],
+      "color": "#777777"
+    },
+    {
+      "name": "FFD20 Bestiary",
+      "packs": [
+        "ffd20-bestiary_aberrations",
+        "ffd20-bestiary_animals",
+        "ffd20-bestiary_bosses",
+        "ffd20-bestiary_constructs",
+        "ffd20-bestiary_dragons",
+        "ffd20-bestiary_fey",
+        "ffd20-bestiary_humanoids",
+        "ffd20-bestiary_magical-beasts",
+        "ffd20-bestiary_monstrous-humanoids",
+        "ffd20-bestiary_npcs",
+        "ffd20-bestiary_oozes",
+        "ffd20-bestiary_outsiders",
+        "ffd20-bestiary_plants",
+        "ffd20-bestiary_undead",
+        "ffd20-bestiary_vermin"
+        ],
+      "color": "#777777"
+    }
+  ],
   "packs": [
     {
       "name": "ffd20-bestiary_aberrations",
-      "label": "FFD20 Bestiary - Aberrations",
+      "label": "FFD20 - Aberrations",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_aberrations.db",
+      "path": "packs/ffd20-bestiary_aberrations",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_animals",
-      "label": "FFD20 Bestiary - Animals",
+      "label": "FFD20 - Animals",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_animals.db",
+      "path": "packs/ffd20-bestiary_animals",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_bosses",
-      "label": "FFD20 Bestiary - Bosses",
+      "label": "FFD20 - Bosses",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_bosses.db",
+      "path": "packs/ffd20-bestiary_bosses",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_constructs",
-      "label": "FFD20 Bestiary - Constructs",
+      "label": "FFD20 - Constructs",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_constructs.db",
+      "path": "packs/ffd20-bestiary_constructs",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_dragons",
-      "label": "FFD20 Bestiary - Dragons",
+      "label": "FFD20 - Dragons",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_dragons.db",
+      "path": "packs/ffd20-bestiary_dragons",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_fey",
-      "label": "FFD20 Bestiary - Fey",
+      "label": "FFD20 - Fey",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_fey.db",
+      "path": "packs/ffd20-bestiary_fey",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_humanoids",
-      "label": "FFD20 Bestiary - Humanoids",
+      "label": "FFD20 - Humanoids",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_humanoids.db",
+      "path": "packs/ffd20-bestiary_humanoids",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_magical-beasts",
-      "label": "FFD20 Bestiary - Magical Beasts",
+      "label": "FFD20 - Magical Beasts",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_magical-beasts.db",
+      "path": "packs/ffd20-bestiary_magical-beasts",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_monstrous-humanoids",
-      "label": "FFD20 Bestiary - Monstrous Humanoids",
+      "label": "FFD20 - Monstrous Humanoids",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_monstrous-humanoids.db",
+      "path": "packs/ffd20-bestiary_monstrous-humanoids",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_npcs",
-      "label": "FFD20 Bestiary - NPCs",
+      "label": "FFD20 - NPCs",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_npcs.db",
+      "path": "packs/ffd20-bestiary_npcs",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_oozes",
-      "label": "FFD20 Bestiary - Oozes",
+      "label": "FFD20 - Oozes",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_oozes.db",
+      "path": "packs/ffd20-bestiary_oozes",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_outsiders",
-      "label": "FFD20 Bestiary - Outsiders",
+      "label": "FFD20 - Outsiders",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_outsiders.db",
+      "path": "packs/ffd20-bestiary_outsiders",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_plants",
-      "label": "FFD20 Bestiary - Plants",
+      "label": "FFD20 - Plants",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_plants.db",
+      "path": "packs/ffd20-bestiary_plants",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_undead",
-      "label": "FFD20 Bestiary - Undead",
+      "label": "FFD20 - Undead",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_undead.db",
+      "path": "packs/ffd20-bestiary_undead",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-bestiary_vermin",
-      "label": "FFD20 Bestiary - Vermin",
+      "label": "FFD20 - Vermin",
       "system": "ffd20",
-      "path": "packs/ffd20-bestiary_vermin.db",
+      "path": "packs/ffd20-bestiary_vermin",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-buffs_and_effects",
       "label": "FFd20 Buffs and Effects",
       "system": "ffd20",
-      "path": "packs/ffd20-buffs_and_effects.db",
+      "path": "packs/ffd20-buffs_and_effects",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_astrologian",
-      "label": "FFD20 Class Pack - Base - Astrologian",
+      "label": "FFD20 CPB - Astrologian",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_astrologian.db",
+      "path": "packs/ffd20-class-pack-base_astrologian",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_berserker",
-      "label": "FFD20 Class Pack - Base - Berserker",
+      "label": "FFD20 CPB - Berserker",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_berserker.db",
+      "path": "packs/ffd20-class-pack-base_berserker",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_blue-mage",
-      "label": "FFD20 Class Pack - Base - Blue Mage",
+      "label": "FFD20 CPB - Blue Mage",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_blue-mage.db",
+      "path": "packs/ffd20-class-pack-base_blue-mage",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_chemist",
-      "label": "FFD20 Class Pack - Base - Chemist",
+      "label": "FFD20 CPB - Chemist",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_chemist.db",
+      "path": "packs/ffd20-class-pack-base_chemist",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_chocobo-knight",
-      "label": "FFD20 Class Pack - Base - Chocobo Knight",
+      "label": "FFD20 CPB - Chocobo Knight",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_chocobo-knight.db",
+      "path": "packs/ffd20-class-pack-base_chocobo-knight",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_cleric",
-      "label": "FFD20 Class Pack - Base - Cleric",
+      "label": "FFD20 CPB - Cleric",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_cleric.db",
+      "path": "packs/ffd20-class-pack-base_cleric",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_dark-knight",
-      "label": "FFD20 Class Pack - Base - Dark Knight",
+      "label": "FFD20 CPB - Dark Knight",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_dark-knight.db",
+      "path": "packs/ffd20-class-pack-base_dark-knight",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_engineer",
-      "label": "FFD20 Class Pack - Base - Engineer",
+      "label": "FFD20 CPB - Engineer",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_engineer.db",
+      "path": "packs/ffd20-class-pack-base_engineer",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_gambler",
-      "label": "FFD20 Class Pack - Base - Gambler",
+      "label": "FFD20 CPB - Gambler",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_gambler.db",
+      "path": "packs/ffd20-class-pack-base_gambler",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_geomancer",
-      "label": "FFD20 Class Pack - Base - Geomancer",
+      "label": "FFD20 CPB - Geomancer",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_geomancer.db",
+      "path": "packs/ffd20-class-pack-base_geomancer",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_gunner",
-      "label": "FFD20 Class Pack - Base - Gunner",
+      "label": "FFD20 CPB - Gunner",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_gunner.db",
+      "path": "packs/ffd20-class-pack-base_gunner",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_holy-knight",
-      "label": "FFD20 Class Pack - Base - Holy Knight",
+      "label": "FFD20 CPB - Holy Knight",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_holy-knight.db",
+      "path": "packs/ffd20-class-pack-base_holy-knight",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_illusionist",
-      "label": "FFD20 Class Pack - Base - Illusionist",
+      "label": "FFD20 CPB - Illusionist",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_illusionist.db",
+      "path": "packs/ffd20-class-pack-base_illusionist",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_medic",
-      "label": "FFD20 Class Pack - Base - Medic",
+      "label": "FFD20 CPB - Medic",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_medic.db",
+      "path": "packs/ffd20-class-pack-base_medic",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_necromancer",
-      "label": "FFD20 Class Pack - Base - Necromancer",
+      "label": "FFD20 CPB - Necromancer",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_necromancer.db",
+      "path": "packs/ffd20-class-pack-base_necromancer",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_summoner",
-      "label": "FFD20 Class Pack - Base - Summoner",
+      "label": "FFD20 CPB - Summoner",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_summoner.db",
+      "path": "packs/ffd20-class-pack-base_summoner",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-base_time-mage",
-      "label": "FFD20 Class Pack - Base - Time Mage",
+      "label": "FFD20 CPB - Time Mage",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-base_time-mage.db",
+      "path": "packs/ffd20-class-pack-base_time-mage",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_archer",
-      "label": "FFD20 Class Pack - Core - Archer",
+      "label": "FFD20 CPC - Archer",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_archer.db",
+      "path": "packs/ffd20-class-pack-core_archer",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_bard",
-      "label": "FFD20 Class Pack - Core - Bard",
+      "label": "FFD20 CPC - Bard",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_bard.db",
+      "path": "packs/ffd20-class-pack-core_bard",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_beastmaster",
-      "label": "FFD20 Class Pack - Core - Beastmaster",
+      "label": "FFD20 CPC - Beastmaster",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_beastmaster.db",
+      "path": "packs/ffd20-class-pack-core_beastmaster",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_black-mage",
-      "label": "FFD20 Class Pack - Core - Black Mage",
+      "label": "FFD20 CPC - Black Mage",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_black-mage.db",
+      "path": "packs/ffd20-class-pack-core_black-mage",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_dragoon",
-      "label": "FFD20 Class Pack - Core - Dragoon",
+      "label": "FFD20 CPC - Dragoon",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_dragoon.db",
+      "path": "packs/ffd20-class-pack-core_dragoon",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_knight",
-      "label": "FFD20 Class Pack - Core - Knight",
+      "label": "FFD20 CPC - Knight",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_knight.db",
+      "path": "packs/ffd20-class-pack-core_knight",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_monk",
-      "label": "FFD20 Class Pack - Core - Monk",
+      "label": "FFD20 CPC - Monk",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_monk.db",
+      "path": "packs/ffd20-class-pack-core_monk",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_red-mage",
-      "label": "FFD20 Class Pack - Core - Red Mage",
+      "label": "FFD20 CPC - Red Mage",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_red-mage.db",
+      "path": "packs/ffd20-class-pack-core_red-mage",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_thief",
-      "label": "FFD20 Class Pack - Core - Thief",
+      "label": "FFD20 CPC - Thief",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_thief.db",
+      "path": "packs/ffd20-class-pack-core_thief",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_warrior",
-      "label": "FFD20 Class Pack - Core - Warrior",
+      "label": "FFD20 CPC - Warrior",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_warrior.db",
+      "path": "packs/ffd20-class-pack-core_warrior",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-core_white-mage",
-      "label": "FFD20 Class Pack - Core - White Mage",
+      "label": "FFD20 CPC - White Mage",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-core_white-mage.db",
+      "path": "packs/ffd20-class-pack-core_white-mage",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_black-belt",
-      "label": "FFD20 Class Pack - Hybrid - Black Belt",
+      "label": "FFD20 CPH - Black Belt",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_black-belt.db",
+      "path": "packs/ffd20-class-pack-hybrid_black-belt",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_dancer",
-      "label": "FFD20 Class Pack - Hybrid - Dancer",
+      "label": "FFD20 CPH - Dancer",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_dancer.db",
+      "path": "packs/ffd20-class-pack-hybrid_dancer",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_druid",
-      "label": "FFD20 Class Pack - Hybrid - Druid",
+      "label": "FFD20 CPH - Druid",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_druid.db",
+      "path": "packs/ffd20-class-pack-hybrid_druid",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_fencer",
-      "label": "FFD20 Class Pack - Hybrid - Fencer",
+      "label": "FFD20 CPH - Fencer",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_fencer.db",
+      "path": "packs/ffd20-class-pack-hybrid_fencer",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_gunbreaker",
-      "label": "FFD20 Class Pack - Hybrid - Gunbreaker",
+      "label": "FFD20 CPH - Gunbreaker",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_gunbreaker.db",
+      "path": "packs/ffd20-class-pack-hybrid_gunbreaker",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_ninja",
-      "label": "FFD20 Class Pack - Hybrid - Ninja",
+      "label": "FFD20 CPH - Ninja",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_ninja.db",
+      "path": "packs/ffd20-class-pack-hybrid_ninja",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_samurai",
-      "label": "FFD20 Class Pack - Hybrid - Samurai",
+      "label": "FFD20 CPH - Samurai",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_samurai.db",
+      "path": "packs/ffd20-class-pack-hybrid_samurai",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_scholar",
-      "label": "FFD20 Class Pack - Hybrid - Scholar",
+      "label": "FFD20 CPH - Scholar",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_scholar.db",
+      "path": "packs/ffd20-class-pack-hybrid_scholar",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-hybrid_sword-saint",
-      "label": "FFD20 Class Pack - Hybrid - Sword Saint",
+      "label": "FFD20 CPH - Sword Saint",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-hybrid_sword-saint.db",
+      "path": "packs/ffd20-class-pack-hybrid_sword-saint",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-other_npc",
-      "label": "FFD20 Class Pack - Other - NPC",
+      "label": "FFD20 CPO - NPC",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-other_npc.db",
+      "path": "packs/ffd20-class-pack-other_npc",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-other_class-animals",
-      "label": "FFD20 Class Pack - Other - Class Animals",
+      "label": "FFD20 CPO - Class Animals",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-other_class-animals.db",
+      "path": "packs/ffd20-class-pack-other_class-animals",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-other_class-animals-example",
-      "label": "FFD20 Class Pack - Other - Class Animals Examples",
+      "label": "FFD20 CPO - Class Animals Examples",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-other_class-animals-example.db",
+      "path": "packs/ffd20-class-pack-other_class-animals-example",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-other_class-mounts",
-      "label": "FFD20 Class Pack - Other - Class Mounts",
+      "label": "FFD20 CPO - Class Mounts",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-other_class-mounts.db",
+      "path": "packs/ffd20-class-pack-other_class-mounts",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-other_class-mounts-example",
-      "label": "FFD20 Class Pack - Other - Class Mounts Examples",
+      "label": "FFD20 CPO - Class Mounts Examples",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-other_class-mounts-example.db",
+      "path": "packs/ffd20-class-pack-other_class-mounts-example",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-other_class-pets",
-      "label": "FFD20 Class Pack - Other - Class Pets",
+      "label": "FFD20 CPO - Class Pets",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-other_class-pets.db",
+      "path": "packs/ffd20-class-pack-other_class-pets",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-pack-other_class-pets-example",
-      "label": "FFD20 Class Pack - Other - Class Pets Examples",
+      "label": "FFD20 CPO - Class Pets Examples",
       "system": "ffd20",
-      "path": "packs/ffd20-class-pack-other_class-pets-example.db",
+      "path": "packs/ffd20-class-pack-other_class-pets-example",
       "type": "Actor",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-class-prestige-pack_dark_emperor",
       "label": "FFD20 Class Pack - Prestige - Dark Emperor",
       "system": "ffd20",
-      "path": "packs/ffd20-class-prestige-pack_dark_emperor.db",
+      "path": "packs/ffd20-class-prestige-pack_dark_emperor",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-feats",
       "label": "FFD20 Feats",
       "system": "ffd20",
-      "path": "packs/ffd20-feats.db",
+      "path": "packs/ffd20-feats",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-traits",
       "label": "FFD20 Traits",
       "system": "ffd20",
-      "path": "packs/ffd20-traits.db",
+      "path": "packs/ffd20-traits",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-macros",
       "label": "FFd20 Macros",
       "system": "ffd20",
-      "path": "packs/ffd20-macros.db",
+      "path": "packs/ffd20-macros",
       "type": "Macro",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-roll-tables",
       "label": "FFd20 Roll Tables",
       "system": "ffd20",
-      "path": "packs/ffd20-roll-tables.db",
+      "path": "packs/ffd20-roll-tables",
       "type": "RollTable",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-spells",
       "label": "FFD20 Spells",
       "system": "ffd20",
-      "path": "packs/ffd20-spells.db",
+      "path": "packs/ffd20-spells",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_alchemical-items",
       "label": "FFD20 Items - Alchemical ",
       "system": "ffd20",
-      "path": "packs/ffd20-items_alchemical-items.db",
+      "path": "packs/ffd20-items_alchemical-items",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_armors-and-shields",
       "label": "FFD20 Items - Armor and Shields",
       "system": "ffd20",
-      "path": "packs/ffd20-items_armors-and-shields.db",
+      "path": "packs/ffd20-items_armors-and-shields",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_artifacts",
       "label": "FFD20 Items - Artifacts",
       "system": "ffd20",
-      "path": "packs/ffd20-items_artifacts.db",
+      "path": "packs/ffd20-items_artifacts",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_general-items",
       "label": "FFD20 Items - General Items",
       "system": "ffd20",
-      "path": "packs/ffd20-items_general-items.db",
+      "path": "packs/ffd20-items_general-items",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_magical-armor",
       "label": "FFD20 Items - Magical Armor",
       "system": "ffd20",
-      "path": "packs/ffd20-items_magical-armor.db",
+      "path": "packs/ffd20-items_magical-armor",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_magical-weapons",
       "label": "FFD20 Items - Magical Weapons",
       "system": "ffd20",
-      "path": "packs/ffd20-items_magical-weapons.db",
+      "path": "packs/ffd20-items_magical-weapons",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_magitek",
       "label": "FFD20 Items - Magitek",
       "system": "ffd20",
-      "path": "packs/ffd20-items_magitek.db",
+      "path": "packs/ffd20-items_magitek",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_materia",
       "label": "FFD20 Items - Materia",
       "system": "ffd20",
-      "path": "packs/ffd20-items_materia.db",
+      "path": "packs/ffd20-items_materia",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_miscellaneous-magical-items",
       "label": "FFD20 Items - Miscellaneous Magical Items",
       "system": "ffd20",
-      "path": "packs/ffd20-items_miscellaneous-magical-items.db",
+      "path": "packs/ffd20-items_miscellaneous-magical-items",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_rings",
       "label": "FFD20 Items - Rings",
       "system": "ffd20",
-      "path": "packs/ffd20-items_rings.db",
+      "path": "packs/ffd20-items_rings",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_royal-arms",
       "label": "FFD20 Items - Royal Arms",
       "system": "ffd20",
-      "path": "packs/ffd20-items_royal-arms.db",
+      "path": "packs/ffd20-items_royal-arms",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_weapons-and-ammo",
       "label": "FFD20 Items - Weapons and Ammo",
       "system": "ffd20",
-      "path": "packs/ffd20-items_weapons-and-ammo.db",
+      "path": "packs/ffd20-items_weapons-and-ammo",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-items_wondrous-items",
       "label": "FFD20 Items - Wondrous Items",
       "system": "ffd20",
-      "path": "packs/ffd20-items_wondrous-items.db",
+      "path": "packs/ffd20-items_wondrous-items",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-races-core",
       "label": "FFD20 Races - Core",
       "system": "ffd20",
-      "path": "packs/ffd20-races-core.db",
+      "path": "packs/ffd20-races-core",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-races-base",
       "label": "FFD20 Races - Base",
       "system": "ffd20",
-      "path": "packs/ffd20-races-base.db",
+      "path": "packs/ffd20-races-base",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-races-beastman",
       "label": "FFD20 Races - Beastman",
       "system": "ffd20",
-      "path": "packs/ffd20-races-beastman.db",
+      "path": "packs/ffd20-races-beastman",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     },
     {
       "name": "ffd20-races-monstrous",
       "label": "FFD20 Races - Monstrous",
       "system": "ffd20",
-      "path": "packs/ffd20-races-monstrous.db",
+      "path": "packs/ffd20-races-monstrous",
       "type": "Item",
-      "module": "ffd20-content",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
     }
   ],
+  "esmodules": ["ffd20-content.js"],
   "authors": [
     {
       "name": "Ritsu Voices"
@@ -870,5 +1011,11 @@
     {
       "name": "Tortuun"
     }
-  ]
+  ],
+  "id": "ffd20-content",
+  "url": "https://github.com/ritsuna/FFd20_content",
+  "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
+  "download": "https://github.com/Ritsuna/FFd20_content/releases/download/12.2.0/FFd20-Content.12.2.0.zip",
+  "readme": "https://github.com/ritsuna/FFd20_content/blob/main/README.md",
+  "changelog": "https://github.com/ritsuna/FFd20_content/blob/main/changelog.md"
 }

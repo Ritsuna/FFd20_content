@@ -1,0 +1,5 @@
+2025/06/26-17:17:37.399 4f04 Delete type=3 #1
+2025/06/26-17:17:45.615 774 Level-0 table #5: started
+2025/06/26-17:17:45.703 774 Level-0 table #5: 54338 bytes OK
+2025/06/26-17:17:45.756 774 Delete type=0 #3
+2025/06/26-17:17:46.118 774 Manual compaction at level-0 from '!actors!LPKd9QXkZvacAiOA' @ 72057594037927935 : 1 .. '!actors.items!v8ttXwwZh1GhU0nX.vtyNBYIcwzLLUaZK' @ 0 : 0; will stop at (end)

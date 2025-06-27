@@ -1,4 +1,27 @@
 # Changelog
+## 12.2.0 2025/06/26
+
+### 12.2.0 Changelog
+
+- Added Monk
+- Polished Ninja
+
+## 12.1.0 2025/03/14
+
+### 12.1.0 Changelog
+
+- Updated to foundry V12 and adjusted versioning to reflect that(versioning will be foundry version followed by major version and last patch)
+- rechecking of features
+- batch updates nothing too major as all need revision
+
+## 0.4.0 2024/10/06
+
+### 0.4.0 Changelog
+
+- Updated to foundry V11
+- rechecking of features
+- Races updated:
+- Classes updated:
 
 ## 0.3.3 2024/03/04
 
@@ -9,7 +32,6 @@
 - Added Class base - Blue Mage and 1 Archetype
 - Cleaned a few things up
 - Added to the bestiary Calacbrina
-
 
 ## 0.3.2 2024/02/17
 
