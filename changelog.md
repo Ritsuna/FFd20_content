@@ -1,4 +1,10 @@
 # Changelog
+## 12.3.0 2025/07/11
+
+### 12.3.0 Changelog
+
+- Added Druid and 1 Archetype
+
 ## 12.2.0 2025/06/26
 
 ### 12.2.0 Changelog

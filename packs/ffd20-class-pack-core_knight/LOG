@@ -1,5 +1,5 @@
-2025/06/26-17:55:48.325 5acc Delete type=3 #1
-2025/06/26-17:55:58.417 29f0 Level-0 table #5: started
-2025/06/26-17:55:58.453 29f0 Level-0 table #5: 14045 bytes OK
-2025/06/26-17:55:58.492 29f0 Delete type=0 #3
-2025/06/26-17:55:58.493 29f0 Manual compaction at level-0 from '!items!Icd5xpNmdrK7DdTf' @ 72057594037927935 : 1 .. '!items!yX5UCwtaJcCxFkRO' @ 0 : 0; will stop at (end)
+2025/07/11-12:42:59.223 2b58 Delete type=3 #1
+2025/07/11-12:43:09.612 8c9c Level-0 table #5: started
+2025/07/11-12:43:09.725 8c9c Level-0 table #5: 14045 bytes OK
+2025/07/11-12:43:09.772 8c9c Delete type=0 #3
+2025/07/11-12:43:09.935 8c9c Manual compaction at level-0 from '!items!Icd5xpNmdrK7DdTf' @ 72057594037927935 : 1 .. '!items!yX5UCwtaJcCxFkRO' @ 0 : 0; will stop at (end)
