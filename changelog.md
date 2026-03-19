@@ -1,4 +1,10 @@
 # Changelog
+## 12.4.0 2026/03/18
+
+### 12.4.0 Changelog
+
+- Added Archer
+
 ## 12.3.0 2025/07/11
 
 ### 12.3.0 Changelog

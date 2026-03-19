@@ -1,15 +1,15 @@
 {
   "title": "FFd20 Content",
   "description": "Classes, architypes, gear, spells, bestiary, and more for FFd20. more coming as it is finished.",
-  "version": "12.3.0",
+  "version": "12.4.0",
   "relationships":{
     "systems":[
       {
         "id": "ffd20",
         "type": "system",
         "compatibility": {
-          "minimum": "12",
-          "verified": "12"
+          "minimum": "12.11",
+          "verified": "12.11"
         }
       }
     ]
@@ -18,7 +18,7 @@
     "minimum": "12",
     "verified": "12"
   },
-  "packFolders":[
+  "packFolders": [
     {
       "name": "FFD20 Classes - Base",
       "packs": [
@@ -1015,7 +1015,7 @@
   "id": "ffd20-content",
   "url": "https://github.com/ritsuna/FFd20_content",
   "manifest": "https://raw.githubusercontent.com/Ritsuna/FFd20_content/main/module.json",
-  "download": "https://github.com/Ritsuna/FFd20_content/archive/refs/tags/12.3.0.zip",
+  "download": "https://github.com/Ritsuna/FFd20_content/archive/refs/tags/12.4.0.zip",
   "readme": "https://github.com/ritsuna/FFd20_content/blob/main/README.md",
   "changelog": "https://github.com/ritsuna/FFd20_content/blob/main/changelog.md"
 }
