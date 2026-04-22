@@ -1,4 +1,18 @@
 # Changelog
+## 12.4.2 2026/04/21
+
+### 12.4.2 Changelog
+
+- Polished Summoner
+- Temporarly removed Summoner Talents for reporgram and polish
+
+## 12.4.1 2026/04/12
+
+### 12.4.1 Changelog
+
+- Polished Scholar
+- Temporarly removed Scholar Talents for reporgram and polish
+
 ## 12.4.0 2026/03/18
 
 ### 12.4.0 Changelog
