@@ -1,4 +1,9 @@
 # Changelog
+## 12.4.3 2026/04/29
+
+### 12.4.3 Changelog
+- Added Summoner Architype - Dominant
+
 ## 12.4.2 2026/04/21
 
 ### 12.4.2 Changelog
